@@ -79,15 +79,15 @@ data_2010_2018.to_csv('/UMKC_Assignments/spxusd_2010_2018.csv')
 
 ## Output Example
 
-After training, the model predicts the following close prices for the next 30 minutes:
+After training, the model predicts the following close prices [Example] for the next 30 minutes:
 
 ```bash
 Forecasted close prices for the next 30 minutes:
-[[1201.25]
- [1201.50]
- [1201.75]
+[[601.25]
+ [601.25]
+ [601.25]
  ...
- [1203.00]]
+ [601.25]]
 ```
 
 ---
