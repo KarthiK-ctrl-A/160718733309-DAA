@@ -42,7 +42,7 @@ pip install pandas numpy scikit-learn tensorflow pyfinancialdata
    The script fetches the data for the SPXUSD instrument from 2010 to 2018 and concatenates it into a single CSV file.
 
    ```python
-data_2010_2018.to_csv('/UMKC_Assignments/spxusd_2010_2018.csv')
+   data_2010_2018.to_csv('/UMKC_Assignments/spxusd_2010_2018.csv')
    ```
 
 2. **Preprocess Data**  
@@ -112,3 +112,6 @@ Epoch 20/20
 3. **Additional Data:** Incorporate additional features such as volume, moving averages, or external market indicators to improve predictions.
 
 ---
+
+![Stock Chart](Output.jpg)
+
